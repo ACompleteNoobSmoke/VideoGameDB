@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         UserMenu userMenu = new UserMenu();
+        int breakingVar = 0;
         UserService userService = new UserService(new UserRepo());
         while (true){
             System.out.println("********* BASED VIDEO GAME DATABASE **********");
